@@ -16,7 +16,7 @@ You can put 2 spaces at the end of the line.
 
 ## Sources
 2 sources on markdown syntax: 
-1. [markdownguide](https://www.markdownguide.org/basic-syntax/)  
+1. [Markdown Guide](https://www.markdownguide.org/basic-syntax/)  
 2. [GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 
