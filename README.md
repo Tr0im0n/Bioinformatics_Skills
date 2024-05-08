@@ -39,8 +39,8 @@ The average number of deaths per individual (per capita death rate) is a constan
 The rate at which carnivore (lynx) consumes the herbivore (hare) depends on the saturation of hares (they reach the maximum value).
 
 Predator success rate is denoted by "a". So the rate at which the lynx eats the hares. How efficiently the predator succeeds in catching the prey.
-- a1 = plant (consumption of plants by the hares
-- a2 = cosumption of hares by the plants 
+- a1 = consumption of plants by the hares
+- a2 = cosumption of hares by the lynxes 
 
 The predator population growth due to catching a prey is represented by "b". So the rate at which the population of lynx rises because of the consumption of hares. It is about how the predation has an impact of predator's population dynamics.
 - b1 = saturation point for plant consumption  
