@@ -33,8 +33,8 @@ At higher plant mass density, the hare's consumption rate increases (reaches max
 The average number of births per individual (per capita birth rate) is proportional to the number of food consumed (plant mass for hares and hares for lynx). In other words, the number of hares's birth depends on the availability of plant mass, higher plant mass, higher chances of hares reproduction. Regarding lynx, higher availability of hares, higher chances of survival for lynx and their following reproduction.
 
 The average number of deaths per individual (per capita death rate) is a constant.
-- d1 = lynx
-- d2 = hare
+- d1 = hare
+- d2 = lynx
 
 The rate at which carnivore (lynx) consumes the herbivore (hare) depends on the saturation of hares (they reach the maximum value).
 
