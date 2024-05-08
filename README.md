@@ -1,21 +1,17 @@
 # Bioinformatics_Skills
-Collection of scripts created troughout my Bioinformatics Skills course
+This is a repo that contains all scripts used for our Bioinformatics group project about Dynamic Modelss. 
 
-This is a README, I should probalby add some stuff here.  
-.md stands for markdown. 
+### Project Description:  
+This project is about using dynamic models to learn about population dynamics regarding 3-species systems. In this case, we will be lookng at a system containing plants, hares and lynxes. We are required to perform two main tasks. For *Task 1* we are required to describe the model and its parameters. For *Task 2* we are required to look into three different scenarios and find parameter solutions for each scenario. For this second task we have been given some recomended initial starting values for the model parameters, and we will adjust them until we find the correct solutions.  We are also required to include time-series plots, state-space plots and final model parameters. This project will be done in Matlab and is due on the 14th of May. 
 
-## Formatting
-How do I format titles and stuff?
 
-### Headers
-They are called headers and you can make them by prefixing hashtags (#) !
+#### Course Information:
+- **Course Name:** Bioinformatics Skills
+- **Course Code:** SKI2102
 
-### Newlines
-How do I create newlines?  
-You can put 2 spaces at the end of the line. 
+#### Group Members:
+- Nieka-Lee Ireland (i6323898)  
+- Sabrina Scuitto (add here)  
+- Tom van Wersch (add here)  
 
-## Sources
-2 sources on markdown syntax: 
-1. [Markdown Guide](https://www.markdownguide.org/basic-syntax/)  
-2. [GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
+:)
