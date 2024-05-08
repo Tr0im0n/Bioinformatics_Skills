@@ -1,7 +1,5 @@
 function dydt = plants_hare_lynx(t,y,a1,a2,b1,b2,d1,d2)
 
-% change here
-
 dydt = zeros(3,1);
 
 dydt(1) = y(1)*(1-y(1)) - ((a1*y(1))/(1+b1*y(1)))*y(2);
