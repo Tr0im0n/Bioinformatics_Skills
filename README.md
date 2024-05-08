@@ -33,18 +33,18 @@ At higher plant mass density, the hare's consumption rate increases (reaches max
 The average number of births per individual (per capita birth rate) is proportional to the number of food consumed (plant mass for hares and hares for lynx). In other words, the number of hares's birth depends on the availability of plant mass, higher plant mass, higher chances of hares reproduction. Regarding lynx, higher availability of hares, higher chances of survival for lynx and their following reproduction.
 
 The average number of deaths per individual (per capita death rate) is a constant.
-- d1 = hare
-- d2 = lynx
+- d1 = death rate of hare
+- d2 = death rate of lynx lynx
 
 The rate at which carnivore (lynx) consumes the herbivore (hare) depends on the saturation of hares (they reach the maximum value).
 
 Predator success rate is denoted by "a". So the rate at which the lynx eats the hares. How efficiently the predator succeeds in catching the prey.
-- a1 = lynx
-- a2 = hare
+- a1 = plant (consumption of plants by the hares
+- a2 = cosumption of hares by the plants 
 
 The predator population growth due to catching a prey is represented by "b". So the rate at which the population of lynx rises because of the consumption of hares. It is about how the predation has an impact of predator's population dynamics.
-- b1 = lynx
-- b2 = hare
+- b1 = saturation point for plant consumption  
+- b2 = saturation point for hare consumption 
 
 
 - w is the max consumption rate
