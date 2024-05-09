@@ -12,7 +12,7 @@ This project is about using dynamic models to learn about population dynamics re
 
 ###### Group Members:
 - Nieka-Lee Ireland (i6323898)  
-- Sabrina Scuitto (add here)  
+- Sabrina Scuitto (i6300699)  
 - Tom van Wersch (add here)  
 
 
