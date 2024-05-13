@@ -27,10 +27,8 @@ This project is about using dynamic models to learn about population dynamics re
 
 
 ##### *Observations:*
-In absence of hares, the plant mass would increase exponentially (but it is unrealistic, because of some constraints in nature, so the plant mass growth logistically. 
+In the initial plot, it can be observed that if there were no hares, the plant mass would increase exponentially. However, this is not realistic because there are certain limitations in nature, which means the plant mass grows logistically. 
 
-At higher plant mass density, the hare's consumption rate increases (reaches max saturation).
+The average number of births per species is directly proportional to the amount of food consumed. In other words, when there is a high plant mass, there are higher chances of hare reproduction. Similarly, for lynx, the availability of hares is directly linked to their survival and reproduction rate.
+The rate at which a carnivore (lynx) consumes a herbivore (hare) depends on the saturation of hares. This means that when hares reach their maximum value, the consumption rate of lynx also reaches its maximum value because of their large availability.
 
-The average number of births per individual (per capita birth rate) is proportional to the number of food consumed (plant mass for hares and hares for lynx). In other words, the number of hares's birth depends on the availability of plant mass, higher plant mass, higher chances of hares reproduction. Regarding lynx, higher availability of hares, higher chances of survival for lynx and their following reproduction.
-
-The rate at which carnivore (lynx) consumes the herbivore (hare) depends on the saturation of hares (they reach the maximum value).
