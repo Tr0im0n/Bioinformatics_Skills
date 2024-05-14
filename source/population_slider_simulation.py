@@ -1,3 +1,7 @@
+"""
+Author: Tom Van Wersch
+Date: 13-05-2024
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -54,12 +58,12 @@ def main():
     hares_slider = Slider(slider_axes[1], "Hares", 0.1, 1, valinit=0.2, valstep=0.1)
     lynx_slider = Slider(slider_axes[2], "Lynx", 0.4, 1.2, valinit=0.8, valstep=0.1)
 
-    a1_slider = Slider(slider_axes[3], "a1", 1, 9, valinit=5, valstep=1)
+    a1_slider = Slider(slider_axes[3], "a1", 1, 10, valinit=5, valstep=1)
     a2_slider = Slider(slider_axes[4], "a2", 0.05, 0.45, valinit=0.1, valstep=0.05)
-    b1_slider = Slider(slider_axes[5], "b1", 1, 9, valinit=3, valstep=1)
-    b2_slider = Slider(slider_axes[6], "b2", 1, 9, valinit=2, valstep=1)
+    b1_slider = Slider(slider_axes[5], "b1", 1, 10, valinit=3, valstep=1)
+    b2_slider = Slider(slider_axes[6], "b2", 1, 10, valinit=2, valstep=1)
     d1_slider = Slider(slider_axes[7], "d1", 0.2, 0.6, valinit=0.4, valstep=0.05)
-    d2_slider = Slider(slider_axes[8], "d2", 0.005, 0.045, valinit=0.01, valstep=0.005)
+    d2_slider = Slider(slider_axes[8], "d2", 0.005, 0.015, valinit=0.01, valstep=0.001)
     slider_list = [grass_slider, hares_slider, lynx_slider,
                    a1_slider, a2_slider, b1_slider, b2_slider, d1_slider, d2_slider]
 
@@ -85,6 +89,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# The following are unused functions
 
 
 def phl_tom(t, y, m1, m2, h1, h2, d1, d2):
