@@ -15,6 +15,17 @@ This project is about using dynamic models to learn about population dynamics re
 - Sabrina Scuitto (i6300699)  
 - Tom van Wersch (i6293010)  
 
+### Variable / Parameter Descriptions used in all three scenarios:
+- t0: Start time of simulation [in months]
+- tfinal: End time of simulation [in months]
+- y0[a, b, c]: Initial state i.e. number of plants, hares and lynxs at t=0
+- tspan: Time span defined by the start and end times of the simulation [in months]
+- a1: Predation rate of the hares on the plants
+- a2: Predation rate of the lynxes on the hares 
+- B1: Saturation point of the hares when eating plants
+- b2: Saturation point of lynxes when eating hares
+- d1: Death rate of the hares
+- d2: Death rate of the lynxes
 
 ### Task 1
 ##### *Describing the model and its parameters*
@@ -37,18 +48,17 @@ The rate at which a carnivore (lynx) consumes a herbivore (hare) depends on the 
 ##### Scenario 1
 *The system exhibits stable oscillations with a periodicity of approximately 70 months.*
 
-
-This model presents a period oscillation of about 40-50 months, so it is not stable. As the population of hares increases, the lynxes have more food to survive and reproduce. When reaching the highest saturation point, the lynxes put more pressure on hare reproduction, leading to their decrease. Their decrease results in a following increase in plant mass growth. 
+This model presents a stable oscillation period of about 40-50 months. As the population of hares increases, the lynxes have more food to survive and reproduce. When reaching the highest saturation point, the lynxes put more pressure on hare reproduction, leading to their decrease. Their decrease results in a following increase in plant mass growth. 
 
 ##### Scenario 2
 *The lynx population goes extinct (population very close to zero) after a year, plants and hares stabilize within 120 months.*
 
 
-Based on the resulting plot, we can see that the population of lynxes becomes extinc (reaches zero) around the 60 month mark. The hares and the plants begin to stabalise their population around the 120 month mark. This was done by figuring out how to make the lynxes go extinct, without simply killing all the hares (we had to make sure that some hares were still alive in order to stabalise the hare-plant relationship). After inspecting various variables and making educated judgements about which variables to change and when, the requested  scenerio was obtained. 
+Based on the resulting plot, we can see that the population of lynxes becomes extinct (reaches zero) around the 60 month mark. The hares and the plants begin to stabilise their population around the 120 month mark. This was done by figuring out how to make the lynxes go extinct, without simply killing all the hares (we had to make sure that some hares were still alive in order to stabilise the hare-plant relationship). After inspecting various variables and making educated judgements about which variables to change and when, the requested  scenario was obtained. 
 
 
 ##### Scenario 3
-*The system shows chaotic behavior and the lynx population peaks twice within the 200-months period. What makes this behavior chaotic and not oscillating or random? Hint: Chaotic behavior is deterministic, sensitive to initial conditions, bounded and irregular.*
+*The system shows chaotic behaviour and the lynx population peaks twice within the 200-months period. What makes this behaviour chaotic and not oscillating or random? Hint: Chaotic behaviour is deterministic, sensitive to initial conditions, bounded and irregular.*
 
 
 As you can see in the first graph, the lynx population peaks twice. \
@@ -63,8 +73,3 @@ I am unsure to call the system irregular, the state space seems quite clean. \
 
 Personal note: I'm still a bit unsure how chaotic a system needs to be to qualify as chaotic. I'm not convinced about making this system chaotic. But  it would be interesting to see it. If you are looking at the state space, with this type of model you are bound to find a stable path through it. I guess you could ask how long a loop needs to be for it to qualify as chaotic. \
 Second note: For ease of use and out of my own personal interest I made the script population_slider_simulation.py . It is a standalone script to simulate and show these population changes and gives you sliders to change the variables and initial conditions. This made it a lot easier to test different values. 
-
-
-
-
-

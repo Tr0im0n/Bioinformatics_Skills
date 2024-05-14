@@ -1,4 +1,4 @@
-function [dydt] = plants_hare_lynx(t,y,a1,a2,b1,b2,d1,d2)
+function [dydt] = plants_hare_lynx_(t,y,a1,a2,b1,b2,d1,d2)
 %UNTITLED6 Summary of this function goes here
 %   Detailed explanation goes here
 dydt = zeros(3,1);
