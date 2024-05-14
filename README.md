@@ -38,7 +38,7 @@ The rate at which a carnivore (lynx) consumes a herbivore (hare) depends on the 
 *The system exhibits stable oscillations with a periodicity of approximately 70 months.*
 
 
-This model presents period oscillation of about 40-50 months, so it is not stable. As the population of hare increases, the lynxes have more food to survive and reproduce. When reaching the highest saturation point, the lynxes put more pressure on hare reproduction, leading to their decrease. Their decrease results in a following increase in plant mass growth. 
+This model presents a period oscillation of about 40-50 months, so it is not stable. As the population of hares increases, the lynxes have more food to survive and reproduce. When reaching the highest saturation point, the lynxes put more pressure on hare reproduction, leading to their decrease. Their decrease results in a following increase in plant mass growth. 
 
 ##### Scenario 2
 *The lynx population goes extinct (population very close to zero) after a year, plants and hares stabilize within 120 months.*
@@ -52,17 +52,17 @@ Based on the resulting plot, we can see that the population of lynxes becomes ex
 
 
 As you can see in the first graph, the lynx population peaks twice. \
-The changes made in this simulation were a slight increase in d2 and in increase in the starting lynx population. The reason that we chose to increase d2, is that the lynx population is very stable, because that dead rate was so low. Even when the hare population falls the lynx population will only change a small amount. So to increase insatbility we increased the lynx death rate. Then we messed around with the starting lynx population and found that the model was sensitive toward that input. If you were to increase or decrease it you get quite a different result for example:\
-9: Here the system has a lot less oscilations. \
+The changes made in this simulation were a slight increase in d2 and an increase in the starting lynx population. The reason that we chose to increase d2, is that the lynx population is very stable because that death rate was so low. Even when the hare population falls the lynx population will only change a small amount. So to increase instability we increased the lynx death rate. Then we messed around with the starting lynx population and found that the model was sensitive toward that input. If you were to increase or decrease it you get quite a different result for example:\
+9: Here the system has a lot fewer oscillations. \
 11: The population first falls for quite a long time than it oscillates upwards. \
-The brings us to whether the system is chaotic. The 4 criteria mentioned for a chaotic system are: deterministic, sensitive to initial conditions, bounded and irregular. \
-The system is deterministic, because, well, we have mode the model ourselves and you can see the equations right here. (in the plants_hare_lynx_.m file)\
-The system is also bounded. The grass has a carying capacity of 1, so the grass population wont increase beyond there, the hares grow by eating grass, so are bounded by the amount of grass present, same for the lynx they grow by eating hares, so are bound by their population size. The population also have a lower bound of 0, as you cant have a negative population size. \
+This brings us to whether the system is chaotic. The 4 criteria mentioned for a chaotic system are: deterministic, sensitive to initial conditions, bounded and irregular. \
+The system is deterministic, because, well, we have made the model ourselves and you can see the equations right here. (in the plants_hare_lynx_.m file)\
+The system is also bounded. The grass has a carrying capacity of 1, so the grass population won't increase beyond there, the hares grow by eating grass, so are bound by the amount of grass present, same for the lynx they grow by eating hares, so are bound by their population size. The population also have a lower bound of 0, as you can't have a negative population size. \
 I am unsure to call the system irregular, the state space seems quite clean. \
 
 
-Personal note: I guess im still a bit unsure how chaotic a system needs to be to qualify as chaotic. Im not convinced you can make this system chaotic, if so Id love to see it. If you are looking at the state space, with this type of model you are bound to find a stable path throught it. I guess you could ask how long does a loop need to be for it to qualify as chaotic. \
-Second note: For ease of use and out of my own personal interest I made the script population_slider_simulation.py . It is a standalone script to simulate and show these population changes, and gives you sliders to change the variables and initial conditions. This made it a lot easier to test different values. 
+Personal note: I'm still a bit unsure how chaotic a system needs to be to qualify as chaotic. I'm not convinced about making this system chaotic. But  it would be interesting to see it. If you are looking at the state space, with this type of model you are bound to find a stable path through it. I guess you could ask how long a loop needs to be for it to qualify as chaotic. \
+Second note: For ease of use and out of my own personal interest I made the script population_slider_simulation.py . It is a standalone script to simulate and show these population changes and gives you sliders to change the variables and initial conditions. This made it a lot easier to test different values. 
 
 
 
